@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "test": "vitest run "
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "vitest": "npm:vitest@^2.1.8"
+  }
+}
